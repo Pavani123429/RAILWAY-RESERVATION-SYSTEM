@@ -21,7 +21,7 @@ This system is effective, saves time of management. Thus, it saves organization 
 
 # Defining System:-
 
-<img src="https://github.com/Sowmika26/Miniproject/blob/main/Requirements/system%20design.png">
+<img src="https://github.com/Pavani123429/RAILWAY-RESERVATION-SYSTEM/issues/2#issue-858627753">
 
 # Explanation:-
   ## Railway Management has some features.
