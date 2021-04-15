@@ -47,9 +47,7 @@ run: $(PROJECT_NAME).exe
 doc:
 	make -C ./documentation
 
-test:$(TEST)
-	gcc -Iinc $(INC) $(UNI) $(SRC) $(TEST_SRC).c -o test\test_record.exe
-	./test\test_record.exe
+
 
 clean:
 	rm -rf $(BUILD) $(DOCUMENTATION_OUTPUT)
