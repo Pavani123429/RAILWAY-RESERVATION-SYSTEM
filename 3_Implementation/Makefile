@@ -1,4 +1,6 @@
-PROJECT_NAME = main
+
+PROJ_NAME = main
+TEST_PROJ_NAME = Test_$(PROJ_NAME)
 
 SRC =src/bsort.c \
 src/ssort.c \
@@ -6,16 +8,15 @@ src/isort.c \
 src/quicksort.c \
 
 
-BUILD = build
 
-#INC=inc
-UNI=unity/unity.c
 
-INC	= inc\
--Iunity\
+
+
+INC_H = inc
+INC_T = unity
 
 ifdef OS
-   RM = del /q
+   RM = del 
    FixPath = $(subst /,\,$1)
    EXEC = exe
 else
@@ -25,38 +26,21 @@ else
 	  EXEC = out
    endif
 endif
-TEST_SRC = test/test_record
 
 
-PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
-
-TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
-
-INCLUDE_LIBS = -lcunit
-
-PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
-
-.PHONY: run clean test doc 
-
-$(PROJECT_NAME).exe : $(SRC)
-	gcc -I $(INC) $(PROJECT_NAME).c $(SRC)  -o $(PROJECT_NAME).exe
-
-run: $(PROJECT_NAME).exe
-	$(PROJECT_NAME).exe
-
-doc:
-	make -C ./documentation
-
+all:
+	gcc -I $(INC_H) $(SRC) main.c -o $(call FixPath,$(PROJ_NAME).$(EXEC))
+	
+run:
+	$(call FixPath,$(PROJ_NAME).$(EXEC))
+test:
+	gcc -I $(INC_H) -I $(INC_T) $(TEST_SRC) $(SRC) -o $(call FixPath,$(TEST_PROJ_NAME).$(EXEC))
+	./$(call FixPath,$(TEST_PROJ_NAME).$(EXEC))
 
 
 clean:
-	rm -rf $(BUILD) $(DOCUMENTATION_OUTPUT)
+	
+	$(RM) *.$(EXEC)
+	
 
-$(BUILD):
-	mkdir build
 
-all: $(SRC) $(BUILD)
-	    gcc -I inc $(UNI) $(SRC) $(INC) $(TEST_SRC).c -o $(PROJECT_OUTPUT)
-
-run1:
-	./$(PROJECT_OUTPUT)
