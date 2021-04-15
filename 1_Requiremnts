@@ -1,7 +1,7 @@
-#Railway Management System 
+# Railway Management System 
 
 
-#Introduction:-
+# Introduction:-
 
 ##What is Railway Management System?
 In Railway Management System, we need to sort the various train details into a particular order in order to maintain it in a organised form. So firstly we take all the input details required from the passengers and then sort all the details accordingly. First module includes sorting train numbers using bubble sort. Second module includes sorting train names using selection sort. Third module includes sorting passenger names using insertion sort. And last module includes sorting PNR numbers using quick sort.
