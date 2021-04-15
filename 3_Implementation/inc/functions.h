@@ -9,8 +9,8 @@
  * @copyright Copyright (c) 2021
  * 
  */
-#ifndef __FUNCTIONS_H__
-#define __FUNCTIONS_H__
+#ifndef __functions_h__
+#define __functions_h__
 
 /**
  * @brief Line function is for graphic design of the program
