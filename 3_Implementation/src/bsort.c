@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include "FUNCTIONS.H"
+#include "functions.h"
 void bsort()
 {
 long long int n;
