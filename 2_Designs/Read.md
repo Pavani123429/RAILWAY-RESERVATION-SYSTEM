@@ -1,3 +1,5 @@
 ## Flow chart of RAILWAY-RESERVATION-SYSTEM
 
-<img src="https://github.com/Pavani123429/RAILWAY-RESERVATION-SYSTEM/issues/3#issue-858627951">
+
+![Flow chart (1) (1)](https://user-images.githubusercontent.com/67512847/114887171-d20d5600-9e25-11eb-9152-73653a3ed163.png)
+
