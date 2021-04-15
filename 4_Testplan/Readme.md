@@ -4,7 +4,7 @@
 
 | **Test ID** | **Description**                                              | **Expected Input** | **Expected Output** | **Actual Output** |**Type Of Test**  |    
 |-------------|--------------------------------------------------------------|------------|-------------|----------------|------------------|
-|  H_01       |Check if the User selects an option from the available choices, and if want to add record of the Emplyee give the details like id,Name,salary,permanent address,present Address,phone number,e-mail|User's choice, an integer and character| SUCCESS| SUCCESS|Requirement based |
+|  H_01       |Check if the Management selects an option from the available choices, | SUCCESS| SUCCESS|Requirement based |
 |  H_02       |Check if the User selects an option from the available choices, and if want to delete record of the Emplyee give the details like id|User's choice, an integer  |  SUCCESS|SUCCESS|Requirement based |
 |  H_03       | If record is only present in File, then delete from File     |user choice as an integer| PASS | SUCCESS|Technical
 |  H_04       |Check if the user want to see the Complete list of the Employee, then select the option as display|Display in a file|SUCCESS|SUCCESS|Required based |
