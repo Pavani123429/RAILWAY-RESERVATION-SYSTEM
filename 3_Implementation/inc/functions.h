@@ -1,7 +1,7 @@
 
 /**
  * @file code.h
- * @author Kurra Nagasowmika (SF-Id:-260842)
+ * @author Pavani Tadepalli (SF-Id:-260876)
  * @brief 
  * @version 0.1
  * @date 2021-04-12
@@ -13,7 +13,7 @@
 #define __FUNCTIONS_H__
 
 /**
- * @brief Structure containing details about Employee
+ * @brief Line function is for graphic design of the program
  * 
  */
 #include<stdio.h>
