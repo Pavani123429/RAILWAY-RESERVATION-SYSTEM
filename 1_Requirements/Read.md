@@ -54,24 +54,23 @@ Management selects the case which they want(Case 1: Train numbers using Bubble S
 ## High Level Requirements: 
 | ID | Description | Category | Status | 
 | ----- | ----- | ------- | ---------|
+| HR01 | Management should be able to select the choice | Techincal | TBD-S1 | 
 | HR01 | Management should be able to enter Train names | Techincal | TBD-S1 | 
 | HR02 | Management should be able to enter Passenger names | Techincal | TBD-S1 |
 | HR03 | Management should be able to enter PNR numbers | Techincal | TBD-S1 |
 | HR04 | Management should be able to enter Train numbers | Techincal | TBD-S1 |
-| HR05 | Management should be able to select the sorting | Techincal | TBD-S1 |
-| HR06 | cilent shall be able to read data from a file | Techincal | TBD-S1 |
-| HR07 | Data should not be lost in case of faliure | Scenario | FUTURE |
-| HR08 | Data should be stored when closing the system | Scenario | TBD-S1 |
+| HR05 | Details should be sorted according to selected case| Techincal | TBD-S1 |
+
 ##  Low level Requirements:
  
 | ID | Description | HLR ID | Status (Implemented/Future) |
 | ------ | --------- | ------ | ----- |
-| LR01 | New record is added and Employee id should be unique| HR01 | TBD-S1 |
-| LR02 | Finding the Employee details can be either by searching by name or the best way of searching is by Employee id | HR02 | TBD-S1 |
-| LR03 | If user searches for an invalid ID ""ERROR RECORD NOT FOUND" message should be displayed | HR02 | TBD-S1 |
-| LR04 | User need to search by the Employee id for the details to be updated, if no record is available then "ERROR RECORD NOT FOUND" Message should be displayed | HR02 | TBD-S1 |
-| LR06 | User need to search by id for the Employee record to be deleted, if no such record is available then "ERROR RECORD NOT FOUND" Message should be displayed | HR04 | TBD-S1 |
-| LR05 | User shall be able to save the files, if file already exists then it should append to file and should not overwrite it and if file does not exists then it should create a new file | HR06 | TBD-S1 |
-| LR06 | If opening the login page fails system shloud prompt the message "Invalid login" | HR07| TBD-S1 |
-| LR07 | After adding each record  it asks whether you need to add an another record or Not and Display message as "Y/N" if want to add/modify/delete another record can click Y/N| HR01,HR02,HR03,HR04 | TBD-S1 |
+| LR01 | Management should be able to select the choice| HR01 | TBD-S1 |
+| LR02 | Management should be able to select choice 1 i.e Train numbers using Bubble Sort Algorithm| HR02 | TBD-S1 |
+| LR03 | Management should be able to select choice 2 i.e Train names using Selection sort algorithm| HR02 | TBD-S1 |
+| LR04 | Management should be able to select choice 3 i.e Passenger names using Insertion Sort algorithm| HR02 | TBD-S1 |
+| LR06 | Management should be able to select choice 4 i.e PNR numbers using Quick Sort algorithm| HR04 | TBD-S1 |
+| LR05 | Management should be able to Enter number of Passengers,enter Passenger Name,enter PNR Number,enter Train name,enter Train name| HR06 | TBD-S1 |
+| LR06 | Details should be sorted according to selected case| HR07| TBD-S1 |
+
 
