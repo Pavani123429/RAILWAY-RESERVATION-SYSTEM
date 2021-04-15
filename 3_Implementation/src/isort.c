@@ -1,5 +1,6 @@
 #include<stdio.h>
-#include "FUNCTIONS.H"
+
+#include "functions.h"
 
 void isort(char s[][WID], int n)
 {
