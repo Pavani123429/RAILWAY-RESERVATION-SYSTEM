@@ -1,39 +1,34 @@
-# EMPLOYEE MANAGEMENT SYSTEM-(EMS)
+# Railway Management System 
 
 # Introduction:-
 
-## What is EMS?
-Employee Management System is a distributed application, developed to maintain the details of employees working
-in any organization The EMS has been developed to override the problems prevailing in the practicing manual 
-system.It maintains the information about the personal and official details of the employees.
+## What is Railway Management System ?
+In Railway Management System, we need to sort the various train details into a particular order in order to maintain it in a organised form. So firstly we take all the input details required from the passengers and then sort all the details accordingly. First module includes sorting train numbers using bubble sort. Second module includes sorting train names using selection sort. Third module includes sorting passenger names using insertion sort. And last module includes sorting PNR numbers using quick sort.
 
 ## Objectives Of Project:-
 
-  1) This project aims to simplify the task of maintaining records of the employees of Company.
-  2) To develop an well-designed database to store employee information.
-  3) Provides full functional reports to management of Company.
-  4) The objective of this project is to provide a comprehensive approach towards the management of employee information. 
+The purpose of this project is to develop “Railway Management System” which takes all the customer details and travel details as input and sorts all the information using various sort to arrange them in an organized manner.
+This code is basically written as a solution to the drawbacks of existing problems of arranging things in a particular order. This application can be used as a real world application and by any organization.
+
+# Benefits
+Railway Management System enables the customer details and travel details as input and sorts all the information using various sorts to arrange them in an organized manner.
+
+# Effective Management
+This system is effective, saves time of management. Thus, it saves organization resources and expenses.
 
 
-## Cost and Time Complexity:-
-  ## Time Complexity:
-       O(Clog⁡N), where N is the number of employees, and C is the number of jobs across all employees.
-       The maximum size of the heap is N, so each push and pop operation is O(log⁡N), and there are O(C) such operations.
-  ## Space Complexity:
-       O(N) in additional space complexity.
+
 
 # Defining System:-
 
 <img src="https://github.com/Sowmika26/Miniproject/blob/main/Requirements/system%20design.png">
 
 # Explanation:-
-  ## Employee Management has some features.
+  ## Railway Management has some features.
 
-       Proper Login Screen (Invisible Password Typing).
-       Password Protected.
-       Encrypted File (Binary).
-       Easily Add, Delete, Modify Records.
-       Various Essential Queries.
+Management selects the case which they want(Case 1: Train numbers using Bubble Sort Algorithm Case 2:Train names using Selection sort algorithm, Case 3: passenger names using Insertion Sort algorithm, Case 4: PNR numbers using Quick Sort algorithm)the train details are sorted according to selected case 
+
+
 # SWOT Analysis:
   <img src="https://github.com/Sowmika26/Miniproject/blob/main/Requirements/SWOT%20Analysis.png">
 
@@ -41,31 +36,29 @@ system.It maintains the information about the personal and official details of t
 # 4W's and 1'H
    
    ## Who:
-          Employee Management System is used by the industries to store the data of the employees. This system is used for any kind of industry
-           whether it be small scale or large scale.
+          Railway Management System is a software solution by providing organized form. This system is used for any kind of train details into a particular order in order to maintain it in a organized form 
     
    ## What:
-          It is helpful for the company organisation in order to save the complete data of each employee.
+           It is helpful for the management to save time.
    
    ## When:
-          The Employee Management System is now used in every industry to have all the info of the employee stored into file/database. This way            all the list of employees working in a particular industry can be stored in one place
+           The Railway Management System is now used in Railway department for easy sorting 
    
    ## Where:
-          Face the issues in saving the data of Employee in companies, Industries etc.
-
+        Face the issues in collection of train details.
    ## How:
-         This issue can be solved by creating a database of employees and saving the information in a file.
+         This issue can be solved by requesting any proof i.e ticket.
          
        
 # Detail requirements
 ## High Level Requirements: 
 | ID | Description | Category | Status | 
 | ----- | ----- | ------- | ---------|
-| HR01 | cilent shall be able to add Employee record | Techincal | TBD-S1 | 
-| HR02 | cilent shall be able to display Employee record | Techincal | TBD-S1 |
-| HR03 | cilent shall be able to update a Employee record | Techincal | TBD-S1 |
-| HR04 | cilent shall be able to delete a Employee record | Techincal | TBD-S1 |
-| HR05 | cilent shall be able to save records in a file | Techincal | TBD-S1 |
+| HR01 | Management should be able to enter Train names | Techincal | TBD-S1 | 
+| HR02 | Management should be able to enter Passenger names | Techincal | TBD-S1 |
+| HR03 | Management should be able to enter PNR numbers | Techincal | TBD-S1 |
+| HR04 | Management should be able to enter Train numbers | Techincal | TBD-S1 |
+| HR05 | Management should be able to select the sorting | Techincal | TBD-S1 |
 | HR06 | cilent shall be able to read data from a file | Techincal | TBD-S1 |
 | HR07 | Data should not be lost in case of faliure | Scenario | FUTURE |
 | HR08 | Data should be stored when closing the system | Scenario | TBD-S1 |
