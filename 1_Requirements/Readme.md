@@ -22,7 +22,8 @@ This system is effective, saves time of management. Thus, it saves organization 
 
 # Defining System:-
 
-<img src="1_Requirements/Design (2).png">
+![Design (3)](https://user-images.githubusercontent.com/67512847/114886960-a4281180-9e25-11eb-8229-84a16ebc15a2.png)
+
 
 # Explanation:-
   ## Railway Management has some features.
