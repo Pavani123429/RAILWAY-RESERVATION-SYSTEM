@@ -1,5 +1,6 @@
 #include<stdio.h>
-#include "FUNCTIONS.H"
+
+#include "functions.h"
 
 void quicksort(int list[], int low, int high)
 {
