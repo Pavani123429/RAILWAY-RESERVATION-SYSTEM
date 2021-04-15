@@ -1,17 +1,19 @@
-#include "record.h"
+#include "FUNCTIONS.H"
 #include "unity.h"
+#include "unity_internals.h"
 
-Name =NULL;
-id result={0};
-/* Required by the unity test framework */
-void setUp()
+#define LEN 100
+#define WID 80
+
+    
+     void setUp()
 {
 }
 /* Required by the unity test framework */
 void tearDown()
 {
 }
-void test_add(void){
+void test_bsort(void){
 
     TEST_ASSERT_EQUAL(1,start->id);
     TEST_ASSERT_EQUAL(1,start->Name);
@@ -30,21 +32,4 @@ void test_search(void){
     TEST_ASSERT_EQUAL(260842, result.id);
     TEST_ASSERT_EQUAL(0,find_by_id(start,260842,&result));
 
-}
-int main(void)
-{
-    /* Initiate the Unity Test Framework */
-    UNITY_BEGIN();
-
-    /* Run Test functions */
-    RUN_TEST(test_add);
-    RUN_TEST(test_search);
-
-    //RUN_TEST(test_display);
-    
-    RUN_TEST(test_delete);
-
-
-    /* Close the Unity Test Framework */
-    return UNITY_END();
 }
