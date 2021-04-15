@@ -1,11 +1,10 @@
 PROJECT_NAME = main
 
-SRC =src/add.c \
-src/basicinfo.c \
-src/delete.c \
-src/display.c \
-src/modify.c \
-src/search.c \
+SRC =src/bsort.c \
+src/ssort.c \
+src/isort.c \
+src/quicksort.c \
+
 
 BUILD = build
 
