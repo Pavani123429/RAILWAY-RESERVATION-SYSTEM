@@ -31,6 +31,7 @@ Management selects the case which they want(Case 1: Train numbers using Bubble S
 
 
 # SWOT Analysis:
+![Untitled Workspace (1)](https://user-images.githubusercontent.com/67512847/114881637-cff4c880-9e20-11eb-83c3-ed4db4cb3101.png)
 
 
 # 4W's and 1'H
