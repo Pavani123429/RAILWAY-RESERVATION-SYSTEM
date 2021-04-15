@@ -30,7 +30,7 @@ Management selects the case which they want(Case 1: Train numbers using Bubble S
 
 
 # SWOT Analysis:
-https://github.com/Pavani123429/RAILWAY-RESERVATION-SYSTEM/issues/1#issue-858605764
+<img src="https://github.com/Pavani123429/RAILWAY-RESERVATION-SYSTEM/issues/1#issue-858605764">
 
 
 # 4W's and 1'H
