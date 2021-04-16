@@ -6,10 +6,7 @@ Railway  Reservation  System  consists  of   various  details  of  different  tr
 
 The first module is to implement sorting of train numbers using the bubble sort. Second module is to implement sorting of train names using selection sort algorithm. Third module is to implement sorting of passenger names (travelling in a train) using insertion sort algorithm. Fourth module is to implement implement sorting of PNR numbers using quick sort algorithm. So we need to sort all the above details using the respective sorting techniques. 
 
-[![Contribution Check - Git Inspector](https://github.com/Pavani123429/RAILWAY-RESERVATION-SYSTEM/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/Pavani123429/RAILWAY-RESERVATION-SYSTEM/actions/workflows/gitinspector.yml)
 
-
-[![Code Quality - Static Code - Cppcheck](https://github.com/Pavani123429/RAILWAY-RESERVATION-SYSTEM/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/Pavani123429/RAILWAY-RESERVATION-SYSTEM/actions/workflows/cppcheck.yml)
 
 
 
@@ -17,7 +14,18 @@ The first module is to implement sorting of train numbers using the bubble sort.
 
 Build | Code Quality | Unity | Git Inspector
 |---------|------------|-----------|----------------
-||        ||            |[![Unit Testing - Unity](https://github.com/Pavani123429/RAILWAY-RESERVATION-SYSTEM/actions/workflows/unity.yml/badge.svg)](https://github.com/Pavani123429/RAILWAY-RESERVATION-SYSTEM/actions/workflows/unity.yml)|
+|[![Code Quality - Static Code - Cppcheck](https://github.com/Pavani123429/RAILWAY-RESERVATION-SYSTEM/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/Pavani123429/RAILWAY-RESERVATION-SYSTEM/actions/workflows/cppcheck.yml)
+ |[![Unit Testing - Unity](https://github.com/Pavani123429/RAILWAY-RESERVATION-SYSTEM/actions/workflows/unity.yml/badge.svg)](https://github.com/Pavani123429/RAILWAY-RESERVATION-SYSTEM/actions/workflows/unity.yml)  [![Contribution Check - Git Inspector](https://github.com/Pavani123429/RAILWAY-RESERVATION-SYSTEM/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/Pavani123429/RAILWAY-RESERVATION-SYSTEM/actions/workflows/gitinspector.yml)
+
+
+
+
+
+
+
+
+
+
 ## Folder Structure
 Folder             | Description
 -------------------| -----------------------------------------
