@@ -9,57 +9,44 @@ src/search.c \
 
 BUILD = build
 
-#INC=inc
-UNI=unity/unity.c
+INC= inc
+INC_TEST= unity
 
-INC	= inc\
--Iunity\
+TEST_SRC=test/test.c\
+unity/unity.c
 
 ifdef OS
-   RM = del /q
-   FixPath = $(subst /,\,$1)
-   EXEC = exe
+	RM=del
+	FixPath=$(subst /,\,$1)
+	EXEC=exe
+
 else
-   ifeq ($(shell uname), Linux)
-      RM = rm -rf
-      FixPath = $1
-	  EXEC = out
-   endif
-endif
-TEST_SRC = test/test_record
+	ifeq ($(shell uname),Linux)
+		RM=rm -rf
+		FixPath=$1
+		EXEC=out
+	endif
+
+endif			
+
+.PHONY: run clean test doc all
+
+all:
+	gcc -I $(INC) $(SRC) main.c -o $(call FixPath, $(PROJ_NAME).$(EXEC))
 
 
-PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
+run:
+	$(call FixPath,$(PROJ_NAME).$(EXEC))	
 
-TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
-INCLUDE_LIBS = -lcunit
+cppcheck:
+	cppcheck --enable= all $(SRC) main.c
 
-PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
+debug:
+	gcc -I $(INC) $(SRC) main.c -g -o $(PROJ_NAME).$(EXEC)
+	gdb $(PROJ_NAME).$(EXEC)
 
-.PHONY: run clean test doc 
+valgrind:
+	valgrind ./$(TEST_PROJ_NAME).$(EXEC)	 
 
-$(PROJECT_NAME).exe : $(SRC)
-	gcc -I $(INC) $(PROJECT_NAME).c $(SRC)  -o $(PROJECT_NAME).exe
 
-run: $(PROJECT_NAME).exe
-	$(PROJECT_NAME).exe
-
-doc:
-	make -C ./documentation
-
-test:$(TEST)
-	gcc -Iinc $(INC) $(UNI) $(SRC) $(TEST_SRC).c -o test\test_record.exe
-	./test\test_record.exe
-
-clean:
-	rm -rf $(BUILD) $(DOCUMENTATION_OUTPUT)
-
-$(BUILD):
-	mkdir build
-
-all: $(SRC) $(BUILD)
-	    gcc -I inc $(UNI) $(SRC) $(INC) $(TEST_SRC).c -o $(PROJECT_OUTPUT)
-
-run1:
-	./$(PROJECT_OUTPUT)
