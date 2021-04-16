@@ -13,3 +13,15 @@ The first module is to implement sorting of train numbers using the bubble sort.
 
 
 [![Unit Testing - Unity](https://github.com/Pavani123429/RAILWAY-RESERVATION-SYSTEM/actions/workflows/unity.yml/badge.svg)](https://github.com/Pavani123429/RAILWAY-RESERVATION-SYSTEM/actions/workflows/unity.yml)
+
+
+Build | Code Quality | Unity | Git Inspector
+|---------|------------|-----------|----------------
+
+## Folder Structure
+Folder             | Description
+-------------------| -----------------------------------------
+`1_Requirements`   | Documents detailing requirements and research
+`2_Design`         | Documents specifying design details
+`3_Implementation` | All code and documentation
+`4_Test_plan`      | Documents with test plans and procedures
