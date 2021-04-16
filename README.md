@@ -1,5 +1,7 @@
 # Railway Management System 
 
+[![C/C++ CI](https://github.com/Pavani123429/RAILWAY-RESERVATION-SYSTEM/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Pavani123429/RAILWAY-RESERVATION-SYSTEM/actions/actions/workflows/c-cpp.yml)|[![Static Check](https://github.com/Pavani123429/RAILWAY-RESERVATION-SYSTEM/actions/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/Pavani123429/RAILWAY-RESERVATION-SYSTEM/actions/actions/workflows/cppcheck.yml)
+
 
 # Introduction:-
 
