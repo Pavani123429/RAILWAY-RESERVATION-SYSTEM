@@ -29,18 +29,14 @@ void quicksort(int list[], int low, int high);//Quick sort
 
 long long int n;
 long long int a[n],b[n],i,j,t,r,cn=0,pnr[10];
-char name[10][10],tname[10][10];
 char name[10][100], tname[10][100],copy[10][100], temp[10];
-int i, j, n;
 long long int trname[n],pnr[n];
 char pname[10][10];
-int i, item;
 char elem[WID];
-int pivot, i, j, temp;
+int pivot,temp;
 int choice;
-int n, i,j;
-char s[LEN][WID],tname[10][10],temp[10][10];
-int size, i,j;
+char s[LEN][WID],temp[10][10];
+int size;
 
 
 #endif
