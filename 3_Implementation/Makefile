@@ -54,11 +54,7 @@ run:$(PROJECT_NAME)
 doc:
 	make -C ./documentation
 
-# Build and run the unit tests
-test: $(BUILD)
-	gcc $(TEST_SRC) $(INC) -lm -o $(TEST_OUTPUT)
-	./$(TEST_OUTPUT)
-	
+
 valgrind:
 	valgrind ./Test_$(PROJECT_NAME).$(EXEC)
 
