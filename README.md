@@ -12,12 +12,12 @@ The first module is to implement sorting of train numbers using the bubble sort.
 [![Code Quality - Static Code - Cppcheck](https://github.com/Pavani123429/RAILWAY-RESERVATION-SYSTEM/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/Pavani123429/RAILWAY-RESERVATION-SYSTEM/actions/workflows/cppcheck.yml)
 
 
-[![Unit Testing - Unity](https://github.com/Pavani123429/RAILWAY-RESERVATION-SYSTEM/actions/workflows/unity.yml/badge.svg)](https://github.com/Pavani123429/RAILWAY-RESERVATION-SYSTEM/actions/workflows/unity.yml)
+
 
 
 Build | Code Quality | Unity | Git Inspector
 |---------|------------|-----------|----------------
-
+||        ||            |[![Unit Testing - Unity](https://github.com/Pavani123429/RAILWAY-RESERVATION-SYSTEM/actions/workflows/unity.yml/badge.svg)](https://github.com/Pavani123429/RAILWAY-RESERVATION-SYSTEM/actions/workflows/unity.yml)|
 ## Folder Structure
 Folder             | Description
 -------------------| -----------------------------------------
