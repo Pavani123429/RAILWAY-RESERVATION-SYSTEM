@@ -53,6 +53,4 @@ valgrind:
 	valgrind ./$(TEST_PROJ_NAME).$(EXEC)	 
 
 
-test:
-	gcc -I $(INC) -I $(INC_TEST) $(TEST_SRC) $(SRC) -o $(call FixPath,$(TEST_PROJ_NAME).$(EXEC))
-	./$(call FixPath,$(TEST_PROJ_NAME).$(EXEC))
+
